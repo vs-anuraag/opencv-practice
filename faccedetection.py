@@ -17,6 +17,6 @@ for (x,y,w,h) in faces_rect:
 
 cv.imshow('detectected', img)
 
-cv.imwrite('result.jpg', img)
+cv.imwrite('result1.jpg', img)
 
 cv.waitKey(0)
